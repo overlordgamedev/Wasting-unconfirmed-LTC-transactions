@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  litecoin:
+    build: .
+    container_name: litecoin_node
+    ports:
+      - "9333:9333"  # P2P порт
+      - "9332:9332"  # RPC порт
+    volumes:
+      - litecoin_data:/root/.litecoin
+    restart: unless-stopped
+
+volumes:
+  litecoin_data:

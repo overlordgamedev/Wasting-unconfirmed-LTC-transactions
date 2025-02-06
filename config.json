@@ -1,0 +1,19 @@
+{
+    "bot": {
+        "token": "",
+        "chat_id":["00000", "0000"]
+    },
+    "transaction": {
+        "fee_procent": 0.10,
+        "send_amount_procent": 0.90
+    },
+    "address": {
+        "to_address": ""
+    },
+    "rpc": {
+        "url": ""
+    },
+    "scheduler": {
+        "clear_interval_hours": 1
+    }
+}
